@@ -15,7 +15,10 @@ h1 a{color:inherit;text-decoration-color:var(--brand);text-underline-offset:6px;
 h2{font-size:clamp(22px,3vw,27px);line-height:1.3;margin:44px 0 12px}
 h3{font-size:19px;margin:28px 0 8px}
 p,li{max-width:72ch}
-.hero{margin:0 0 28px}.hero img{width:100%;height:auto;border-radius:10px;display:block}
+.hero{margin:0 0 28px}.hero img{width:100%;height:auto;max-height:520px;object-fit:cover;object-position:center 30%;border-radius:10px;display:block}
+figure{margin:24px 0}figure img{width:100%;height:auto;border-radius:10px;display:block}figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.avatar{float:left;width:96px;height:120px;object-fit:cover;object-position:top;border-radius:8px;margin:4px 16px 8px 0}p:has(.avatar){display:flow-root}
+.post img{max-width:100%;height:auto;border-radius:8px;margin:20px 0}pre{overflow-x:auto;background:var(--soft);padding:14px 16px;border-radius:8px;font-size:14px;line-height:1.5}
 table{border-collapse:collapse;width:100%;margin:16px 0;font-size:15px;display:block;overflow-x:auto}
 th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}th{background:var(--soft)}
 blockquote{margin:20px 0;padding:14px 20px;border-left:4px solid var(--brand);background:var(--soft)}
