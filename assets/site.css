@@ -1,0 +1,29 @@
+:root{--ink:#1d2430;--muted:#5b6575;--line:#e3e7ee;--bg:#fff;--soft:#f6f8fb;--brand:#f58319;--blue:#0071bc}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:960px;margin:0 auto;padding-inline:20px}
+a{color:var(--blue)}a:hover{color:var(--brand)}
+.site-header{border-bottom:1px solid var(--line);background:#fff}
+.bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-block:12px}
+.logo img{display:block;height:40px;width:auto}
+nav{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:15px}
+nav a{color:var(--ink);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+nav a[aria-current=page],nav a:hover{border-color:var(--brand);color:var(--ink)}
+main{padding-block:40px 56px}
+h1{font-size:clamp(28px,4.4vw,40px);line-height:1.2;margin:0 0 20px;letter-spacing:-.01em}
+h1 a{color:inherit;text-decoration-color:var(--brand);text-underline-offset:6px;text-decoration-thickness:3px}
+h2{font-size:clamp(22px,3vw,27px);line-height:1.3;margin:44px 0 12px}
+h3{font-size:19px;margin:28px 0 8px}
+p,li{max-width:72ch}
+.hero{margin:0 0 28px}.hero img{width:100%;height:auto;border-radius:10px;display:block}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:15px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}th{background:var(--soft)}
+blockquote{margin:20px 0;padding:14px 20px;border-left:4px solid var(--brand);background:var(--soft)}
+.post-list{list-style:none;padding:0}.post-list li{padding:14px 0;border-bottom:1px solid var(--line)}
+.site-footer{background:#141a24;color:#cfd5df;font-size:15px}
+.site-footer a{color:#fff}
+.cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px;padding-block:40px 20px}
+.site-footer ul{list-style:none;padding:0;margin:0}.site-footer li{margin:6px 0}
+.site-footer p{margin:4px 0}.fh{font-weight:700;color:#fff;margin-bottom:10px!important}
+.copy{border-top:1px solid #2a3240;padding-block:16px 28px;font-size:13px;color:#8d96a5}
+@media (max-width:720px){.cols{grid-template-columns:1fr}}

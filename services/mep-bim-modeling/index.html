@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEP BIM Modeling from Point Cloud | ViBIM</title>
+<meta name="description" content="Revit models of installed HVAC, piping, electrical and fire protection systems, built from your laser scan and checked by two independent reviewers.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://vibim-scan-to-bim.github.io/services/mep-bim-modeling/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MEP BIM Modeling from Point Cloud | ViBIM">
+<meta property="og:description" content="Revit models of installed HVAC, piping, electrical and fire protection systems, built from your laser scan and checked by two independent reviewers.">
+<meta property="og:url" content="https://vibim-scan-to-bim.github.io/services/mep-bim-modeling/">
+<link rel="icon" href="https://vibimglobal.com/wp-content/uploads/2025/07/logo-vibim-3-300x94.png">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap bar"><a class="logo" href="/"><img src="https://vibimglobal.com/wp-content/uploads/2025/07/logo-vibim-3-300x94.png" alt="ViBIM logo" width="150" height="47"></a><nav aria-label="Main"><a href="/">Home</a><a href="/about-us/">About</a><a href="/our-team/">Team</a><a href="/services/" aria-current="page">Services</a><a href="/testimonials/">Testimonials</a><a href="/vibim-syndicate/">Blog</a><a href="/contact-us/">Contact</a></nav></div></header>
+<main class="wrap">
+<article>
+<h1><a href="https://vibimglobal.com/mep-bim-modeling/">MEP BIM Modeling Services</a> from Point Cloud Data</h1>
+
+<p>ViBIM turns laser scans of existing plant rooms, ceiling voids and risers into connected Revit models of mechanical, electrical, plumbing and fire protection services. The service is built for survey firms and BIM managers who scan in the US, UK, Australia or Canada and need a dependable modeling team behind them. You receive a native RVT file at the LOD and LOI you specify, with IFC, NWC or DWG exports when your project needs them.</p>
+<h2>Systems we trace from the scan</h2>
+<p>An MEP model is only useful if it follows what was actually installed. Our modelers work from the point cloud, not from the original design drawings, so a duct that sags between hangers or a pipe that jogs around a beam is modeled that way. Typical scope by system:</p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>What we model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HVAC</td>
+<td>Chillers, AHUs, cooling towers, rooftop units, and supply, return and exhaust ductwork with fittings and insulation</td>
+</tr>
+<tr>
+<td>Piping</td>
+<td>Domestic hot and cold water, drainage, gas and hydronic lines</td>
+</tr>
+<tr>
+<td>Electrical</td>
+<td>Cable trays, conduits, junction boxes, light fixtures and panels in their scanned positions</td>
+</tr>
+<tr>
+<td>Fire protection</td>
+<td>Sprinkler mains and branches, zone valves, hose cabinets, extinguishers, tanks</td>
+</tr>
+<tr>
+<td>Equipment</td>
+<td>Pumps, fans and panels as parametric Revit families with the correct category and metadata</td>
+</tr>
+</tbody>
+</table>
+<p>Runs are joined to their fittings and equipment, so each supply, return or domestic water system behaves as one network in Revit. Your team can select a system, check its connections and schedule its valves.</p>
+<h2>Choosing LOD and LOI for MEP</h2>
+<p>Most MEP retrofit and coordination work sits between LOD 300 and LOD 400. LOD 500 is reserved for projects where the contract or BEP requires a field-verified record, often for facility management handover. Level of information is set separately: asset IDs, model numbers and manufacturer references are added only where you ask for them, following COBie, IFC attributes or your own tagging scheme.</p>
+<p>A practical rule we share with clients: set the LOD by what the model will be used for next. Clash checks against a new structural opening rarely need the detail that an FM handover does, and asking for less keeps hours and cost down.</p>
+<h2>What your scan can and cannot support</h2>
+<p>Accuracy in Scan to BIM is capped by the data, and MEP is where that limit shows first. Small-bore pipes, valves high on a run and conduits tight against a soffit all need dense, well-registered points.</p>
+<ul>
+<li><strong>Terrestrial scans, registered:</strong> This is the input we recommend when you need high detail or a tight tolerance.</li>
+<li><strong>Mobile scans (for example Leica BLK2GO):</strong> We model from them regularly, but the lower point density limits how much of the model can reach a high LOD, such as LOD 300 for every element.</li>
+<li><strong>Hidden routes:</strong> A duct above a closed ceiling or a pipe inside a wall has no points. We mark where a run leaves the scan and ask how to continue. With MEP drawings or extra survey data we complete it; otherwise it is modeled as an assumption only with your approval, and labeled as one.</li>
+</ul>
+<h2>Files in, files out</h2>
+<p>We take point clouds as RCP or RCS (preferred) or E57, registered or not. Large datasets transfer most reliably as RCS files of 5 GB or less, or as a single zipped dataset per transfer, through FTP, Box, Google Drive, WeTransfer, Cintoo or ACC. Existing MEP drawings and equipment schedules help most where ducts and pipes disappear from view.</p>
+<p>Outputs come from one model, so every file shows the same routes:</p>
+<ol>
+<li><strong>RVT</strong> in your team's Revit version, with systems, equipment families and parameters.</li>
+<li><strong>NWC</strong> for clash detection with the architectural and structural models in Navisworks.</li>
+<li><strong>IFC</strong> in the schema your project names (IFC2x3 or IFC4) for teams outside Revit.</li>
+<li><strong>DWG</strong> plans and sections for retrofit markups and site checks.</li>
+</ol>
+<h2>How the model is checked before you open it</h2>
+<p>QC runs as a separate stage, not as a quick look by the modeler. Our Missing and Misalignment Analysis tool compares the model with the point cloud and flags missed or shifted objects. Two independent reviewers then work through every flag and check duct, pipe and equipment positions at the agreed tolerance, typically 50, 30 or 15 mm, or a custom value from your spec. Connectivity, naming and Navisworks clash checks follow.</p>
+<p>Clashes that come from modeling errors are fixed and rechecked. Clashes that exist on site stay in the model as scanned and are reported to your team. Before release, our Vi-T01 tool converts model-in-place objects into loadable families, and the file is purged, audited and aligned with your naming conventions.</p>
+<p>This process is how we have kept a 99% on-time delivery rate across more than 250,000 hours of Scan to BIM work. You can read more about the people behind it on our <a href="/our-team/">team page</a>.</p>
+<h2>Starting an MEP project</h2>
+<p>Send your scan, the systems in scope, the LOD and tolerance, your Revit version and your deadline. We return scope, timeline and pricing within 12 to 24 hours. A project manager is assigned once you approve, and an NDA can be signed before any files change hands. If you have not scanned yet, site photos, TrueView files and existing drawings are enough for a first estimate.</p>
+<p>New clients can test us on a sample area first. <a href="/contact-us/">Contact us</a> with a section of your point cloud for a free trial model and a quote, or browse our other <a href="/services/">Scan to BIM services</a>.</p>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap cols">
+<div class="nap" itemscope>
+<p class="nap-name"><strong>ViBIM</strong></p>
+<p>Address: 10th floor, CIT Building, No 6, Valley 15, Duy Tan street, Cau Giay ward, Hanoi, Vietnam</p>
+<p>Phone: <a href="tel:+84944798298">(+84) 944.798.298</a></p>
+<p>Email: <a href="mailto:info@vibim.com.vn">info@vibim.com.vn</a></p>
+<p>Website: <a href="https://vibimglobal.com/">https://vibimglobal.com/</a></p>
+</div>
+<div><p class="fh">Company</p><ul><li><a href="/about-us/">About ViBIM</a></li><li><a href="/ceo-pham-thanh/">CEO Pham Thanh</a></li><li><a href="/our-team/">Our Team</a></li><li><a href="/testimonials/">Testimonials</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/contact-us/">Contact</a></li></ul></div>
+<div><p class="fh">Services</p><ul><li><a href="/services/point-cloud-to-bim-services/">Scan to BIM Services</a></li><li><a href="/services/architectural-scan-to-bim-services/">Architectural Scan to BIM</a></li><li><a href="/services/structural-bim-modeling/">Structural BIM Modeling</a></li><li><a href="/services/mep-bim-modeling/">MEP BIM Modeling</a></li><li><a href="/services/topography-bim-modeling/">Topography BIM Modeling</a></li><li><a href="/services/as-built-bim-modeling/">As-Built BIM Modeling</a></li><li><a href="/services/">All services</a></li></ul></div>
+</div><div class="wrap copy">&copy; 2026 ViBIM. Vietnam BIM Consultancy and Technology Application Company Limited.</div></footer>
+</body>
+</html>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vibim-scan-to-bim.github.io/sitemap.xml
+Sitemap: https://vibim-scan-to-bim.github.io/vibim-syndicate/sitemap.xml

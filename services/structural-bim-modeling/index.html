@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Structural BIM Modeling from Point Cloud | ViBIM</title>
+<meta name="description" content="Revit models of existing concrete, steel and timber frames from laser scans, with LOD 200-400 members, two-layer QC and RVT, IFC or NWC output.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://vibim-scan-to-bim.github.io/services/structural-bim-modeling/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Structural BIM Modeling from Point Cloud | ViBIM">
+<meta property="og:description" content="Revit models of existing concrete, steel and timber frames from laser scans, with LOD 200-400 members, two-layer QC and RVT, IFC or NWC output.">
+<meta property="og:url" content="https://vibim-scan-to-bim.github.io/services/structural-bim-modeling/">
+<link rel="icon" href="https://vibimglobal.com/wp-content/uploads/2025/07/logo-vibim-3-300x94.png">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap bar"><a class="logo" href="/"><img src="https://vibimglobal.com/wp-content/uploads/2025/07/logo-vibim-3-300x94.png" alt="ViBIM logo" width="150" height="47"></a><nav aria-label="Main"><a href="/">Home</a><a href="/about-us/">About</a><a href="/our-team/">Team</a><a href="/services/" aria-current="page">Services</a><a href="/testimonials/">Testimonials</a><a href="/vibim-syndicate/">Blog</a><a href="/contact-us/">Contact</a></nav></div></header>
+<main class="wrap">
+<article>
+<h1><a href="https://vibimglobal.com/structural-bim-modeling/">Structural BIM Modeling Services by ViBIM</a> from Point Cloud Data</h1>
+
+<p>Our structural BIM modeling service turns a laser scan of an existing building or plant into a Revit model of its frame, with each visible member sized and positioned from the point cloud. Engineers, contractors and survey firms use the result for retrofit studies, clash checks, quantity takeoff and the as-built record. We deliver native .RVT, with Navisworks, IFC, DWG or PDF files on request.</p>
+<h2>Framing systems and members in scope</h2>
+<p>We model reinforced concrete, structural steel, space frames, trusses, hybrid steel-concrete systems and timber. Typical members are columns, beams, slabs, load-bearing walls, bracing, trusses and complex roof structures. Foundations go in where the scan or your drawings show them.</p>
+<p>Steel sections come from the library for your region instead of being drawn one by one:</p>
+<table>
+<thead>
+<tr>
+<th>Market</th>
+<th>Section and code references</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>United States</td>
+<td>AISC steel shapes</td>
+</tr>
+<tr>
+<td>United Kingdom / EU</td>
+<td>BS EN 1993 for steel, BS EN 1992 for concrete</td>
+</tr>
+<tr>
+<td>Australia</td>
+<td>AS/NZS 3679, AS 4100</td>
+</tr>
+<tr>
+<td>Canada</td>
+<td>CSA S16</td>
+</tr>
+</tbody>
+</table>
+<p>Every element sits in the right Revit category, such as Structural Columns, Structural Framing or Structural Foundations, with consistent names, types and materials. Where known, installation dates and similar metadata are added so the model can be filtered and scheduled.</p>
+<h2>What a point cloud can and cannot tell you about a frame</h2>
+<p>A scanner records surfaces. That single fact shapes most structural scopes:</p>
+<ul>
+<li><strong>Rebar</strong> has no points inside concrete. We model it schematically from reinforcement drawings or specifications, or from bars exposed in the scan. Without either source, rebar stays out.</li>
+<li><strong>Connections</strong> such as base plates, bolts and stiffeners are optional and modeled only where the scan or drawings show them.</li>
+<li><strong>Occlusions</strong> are common: columns behind racking, beam ends above ceilings. We log those areas for your team while modeling continues on the rest of the frame.</li>
+<li><strong>Discontinuities</strong> are modeled as found. If the scan shows a column or wall stopping short, we model and flag it rather than close the gap.</li>
+</ul>
+<p>Members built from drawings instead of scan data are marked, so your engineers can tell measured geometry from documented geometry.</p>
+<h2>Member detail, data and tolerance</h2>
+<p>Three targets are agreed before modeling: LOD for geometry, LOI for data such as material and type, and a model-to-scan tolerance of 50, 30 or 15 mm (about 2, 1.2 or 0.6 in), or a custom value.</p>
+<table>
+<thead>
+<tr>
+<th>LOD</th>
+<th>Beams, columns and trusses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>Primary members at overall size</td>
+</tr>
+<tr>
+<td>300</td>
+<td>True section shapes, secondary members, specified penetrations</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Supports, bracing and connections visible in scan or drawings</td>
+</tr>
+</tbody>
+</table>
+<p>Stiffeners, haunches, plates, nuts and bolts are separate options at LOD 300 or 400. We review detail and position separately, so a well-detailed beam still fails if it sits outside tolerance. Mobile scan data is less dense than a registered terrestrial scan, which caps how much LOD 300 detail it can support.</p>
+<h2>Files delivered</h2>
+<p>All outputs come from the same Revit model, so each member sits in the same place in every file:</p>
+<ul>
+<li><strong>.RVT</strong> in your Revit version, with categories, types and materials assigned.</li>
+<li><strong>NWC or NWD</strong> for loading the frame next to architecture and MEP in Navisworks.</li>
+<li><strong>IFC</strong> in the schema your BEP sets, for engineers working in Tekla or other non-Revit tools.</li>
+<li><strong>DWG and PDF</strong> framing plans, sections and elevations.</li>
+</ul>
+<p>File names and folders follow your delivery standard or ISO 19650.</p>
+<h2>How we build and check the frame</h2>
+<ol>
+<li>Review the point cloud, photos, drawings and any TrueView files, then estimate hours from complexity, scan density and LOD.</li>
+<li>Set up the Revit coordinate system to match the scan, with shared levels, grids, view templates and worksets.</li>
+<li>Model primary columns, beams, slabs and walls first, then secondary members and in-scope connections.</li>
+<li>Check beam-column, slab-beam and wall-foundation joins and the vertical continuity of load-bearing elements.</li>
+<li>Run automated tolerance checks, followed by two independent manual reviews; reviewers recheck every fix.</li>
+<li>Clear duplicates and Revit warnings, purge unused families and views, and confirm naming.</li>
+</ol>
+<p>Clash detection runs in Navisworks Manage or Revit coordination tools when it is part of the scope. After you review the model, adjustments within the agreed scope are typically made at no additional cost.</p>
+<h2>Where our responsibility ends</h2>
+<p>The model gives your engineer measured geometry, not a finished analysis model. Loads, supports, material properties and code checks stay with the engineer of record, who can build an analytical model from our geometry. If you need the model prepared a particular way for analysis, say so in the brief.</p>
+<p>We have delivered BIM modeling since 2014, and 80% of our clients have kept working with us over five years. Background on the company is on the <a href="/about-us/">about page</a>.</p>
+<h2>Starting a structural project</h2>
+<p>Send a point cloud (RCP or E57) with any structural drawings, the framing type, options such as rebar or connections, the LOD and tolerance, and the files and dates you need. Drawings alone are enough for a first estimate. Architecture and MEP can be quoted with the frame from the same scan; see the <a href="/services/">services overview</a>.</p>
+<p><a href="/contact-us/">Contact us</a> for a quote within 12 to 24 hours, or pick a sample area of your scan and we will model it free so your engineers can check the members and sections first. We sign your NDA, or your client's, before the first file changes hands.</p>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap cols">
+<div class="nap" itemscope>
+<p class="nap-name"><strong>ViBIM</strong></p>
+<p>Address: 10th floor, CIT Building, No 6, Valley 15, Duy Tan street, Cau Giay ward, Hanoi, Vietnam</p>
+<p>Phone: <a href="tel:+84944798298">(+84) 944.798.298</a></p>
+<p>Email: <a href="mailto:info@vibim.com.vn">info@vibim.com.vn</a></p>
+<p>Website: <a href="https://vibimglobal.com/">https://vibimglobal.com/</a></p>
+</div>
+<div><p class="fh">Company</p><ul><li><a href="/about-us/">About ViBIM</a></li><li><a href="/ceo-pham-thanh/">CEO Pham Thanh</a></li><li><a href="/our-team/">Our Team</a></li><li><a href="/testimonials/">Testimonials</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/contact-us/">Contact</a></li></ul></div>
+<div><p class="fh">Services</p><ul><li><a href="/services/point-cloud-to-bim-services/">Scan to BIM Services</a></li><li><a href="/services/architectural-scan-to-bim-services/">Architectural Scan to BIM</a></li><li><a href="/services/structural-bim-modeling/">Structural BIM Modeling</a></li><li><a href="/services/mep-bim-modeling/">MEP BIM Modeling</a></li><li><a href="/services/topography-bim-modeling/">Topography BIM Modeling</a></li><li><a href="/services/as-built-bim-modeling/">As-Built BIM Modeling</a></li><li><a href="/services/">All services</a></li></ul></div>
+</div><div class="wrap copy">&copy; 2026 ViBIM. Vietnam BIM Consultancy and Technology Application Company Limited.</div></footer>
+</body>
+</html>
